@@ -36,40 +36,52 @@ export default function RootLayout({
           </div>
 
           {/* Corrected Navigation Router Matrix */}
-          <nav style={{ display: 'flex', gap: '24px' }}>
-            <Link href="/" style={{ 
-              color: '#a3a3a3', 
-              textDecoration: 'none', 
-              fontSize: '0.85rem', 
-              textTransform: 'uppercase', 
-              letterSpacing: '1px',
-              fontWeight: 500
-            }}>
-              Home
-            </Link>
-            
-            <Link href="/cases" style={{ 
-              color: '#a3a3a3', 
-              textDecoration: 'none', 
-              fontSize: '0.85rem', 
-              textTransform: 'uppercase', 
-              letterSpacing: '1px',
-              fontWeight: 500
-            }}>
-              Cases
-            </Link>
-            
-            <Link href="/admin-verification" style={{ 
-              color: '#eb153c', 
-              textDecoration: 'none', 
-              fontSize: '0.85rem', 
-              textTransform: 'uppercase', 
-              letterSpacing: '1px',
-              fontWeight: 600
-            }}>
-              System Admin
-            </Link>
-          </nav>
+<nav style={{ display: 'flex', gap: '24px' }}>
+  <Link href="/" style={{ 
+    color: '#a3a3a3', 
+    textDecoration: 'none', 
+    fontSize: '0.85rem', 
+    textTransform: 'uppercase', 
+    letterSpacing: '1px',
+    fontWeight: 500
+  }}>
+    Home
+  </Link>
+  
+  <Link href="/cases" style={{ 
+    color: '#a3a3a3', 
+    textDecoration: 'none', 
+    fontSize: '0.85rem', 
+    textTransform: 'uppercase', 
+    letterSpacing: '1px',
+    fontWeight: 500
+  }}>
+    Cases
+  </Link>
+
+  {/* New System Analysis Routing Link */}
+  <Link href="/system-analysis" style={{ 
+    color: '#a3a3a3', 
+    textDecoration: 'none', 
+    fontSize: '0.85rem', 
+    textTransform: 'uppercase', 
+    letterSpacing: '1px',
+    fontWeight: 500
+  }}>
+    Analysis
+  </Link>
+ 
+  <Link href="/admin-verification" style={{ 
+    color: '#eb153c', 
+    textDecoration: 'none', 
+    fontSize: '0.85rem', 
+    textTransform: 'uppercase', 
+    letterSpacing: '1px',
+    fontWeight: 600
+  }}>
+    System Admin
+  </Link>
+</nav>
         </header>
 
         {/* Dynamic App Route Wrapper */}
@@ -80,3 +92,4 @@ export default function RootLayout({
     </html>
   );
 }
+
