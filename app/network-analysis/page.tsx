@@ -158,20 +158,18 @@ export default function NetworkAnalysisPage() {
       {/* Hero Header Area */}
       <section className="px-10 pt-16 pb-12 border-b border-[#222222]">
         <p className="text-[10px] tracking-[4px] text-[#eb153c] uppercase mb-3">
-          Sovereign Operating Environment // Z-Axis Active // #ABD822
+          Procedural Justice and Systems Failures
         </p>
         <h1 className="text-5xl md:text-8xl font-black tracking-tighter uppercase mb-4 leading-none font-sans">
-          Demopocrisy
+          Network Analysis
         </h1>
         <p className="text-[#ffffff] text-[12px] max-w-xl leading-relaxed mb-8">
           Institutional memory, procedural systems, and systemic stratigraphic network analysis. 
-          Seven-step cycle mapping. Sovereign administrative framework.
+          Seven-step cycle mapping. Structural diagnostic findings. 
         </p>
         
         <div className="flex flex-wrap gap-8 text-[10px] tracking-widest text-[#bbbaba]">
-          <span>PRIMARY HEX: <span className="text-[#eb153c]">#EB153C</span></span>
-          <span>FREQUENCY: <span className="text-[#eb153c]">822 RESONANCE</span></span>
-          <span>NODES: <span className="text-[#eb153c]">57</span></span>
+         <span>NODES: <span className="text-[#eb153c]">57</span></span>
           <span>CONNECTIONS: <span className="text-[#eb153c]">80</span></span>
           <span>CASES: <span className="text-[#eb153c]">7</span></span>
         </div>
@@ -592,3 +590,4 @@ export default function NetworkAnalysisPage() {
     </main>
   )
 }
+

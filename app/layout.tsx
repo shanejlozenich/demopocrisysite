@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Demopocrisy",
+  title: "Network Analysis",
   description: "Institutional memory, procedural systems, and network analysis.",
 };
 
