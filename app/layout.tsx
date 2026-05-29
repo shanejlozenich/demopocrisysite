@@ -35,7 +35,7 @@ export default function RootLayout({
             </Link>
           </div>
 
-          {/* Corrected Navigation Router Matrix */}
+         {/* Corrected Navigation Router Matrix */}
 <nav style={{ display: 'flex', gap: '24px' }}>
   <Link href="/" style={{ 
     color: '#a3a3a3', 
@@ -59,8 +59,8 @@ export default function RootLayout({
     Cases
   </Link>
 
-  {/* New System Analysis Routing Link */}
-  <Link href="/system-analysis" style={{ 
+  {/* Updated to match your exact folder name */}
+  <Link href="/network-analysis" style={{ 
     color: '#a3a3a3', 
     textDecoration: 'none', 
     fontSize: '0.85rem', 
